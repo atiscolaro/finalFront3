@@ -1,0 +1,32 @@
+.footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+footer img{
+  width: 20rem;
+  margin: 0;
+}
+
+.dh_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.icons_footer{
+  display: flex;
+  width: 10rem;
+}
+
+.icon{
+  width: 1.5rem;
+  border-radius: 1rem;
+}
+.dhicon{
+  width: 10rem;
+}
