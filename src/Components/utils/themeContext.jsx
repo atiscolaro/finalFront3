@@ -7,7 +7,7 @@ function ThemeProvider(props) {
   
 
   const toggleTheme = () => {
-    const root = document.documentElement
+    const root = document.querySelector('body');
     if (theme === 'light') {
       root.classList.remove('dark')
       setTheme('dark')

@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
         <div className='navBar-button'>
           <button onClick={handleToggle}>
-            {isToggled ? 'Activado' : 'Desactivado'}
+            {isToggled ? 'Ligth' : 'Dark'}
           </button>
         </div>
 
